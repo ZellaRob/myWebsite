@@ -29,14 +29,14 @@ class Resume extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '20px', color: 'white'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (647) 569-2324
+                    (+353) 123-4567
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '20px', color: 'white'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    helenrob21@gmail.com
+                    
                   </ListItemContent>
                 </ListItem>			
 
@@ -46,19 +46,12 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
 
               <h2>Experience</h2>
-
-			   <Experience
-              startYear={2020}
-              endYear={"Present"}
-              jobName="Freelancer"
-              jobDescription="Software Engineer"
-              />
 			  
 			  <Experience
                 startYear={2018}
-                endYear={2020}
+                endYear={2022}
                 jobName="Career Break"
-                jobDescription="In 2018 I decided to take a career break. I have used this break to travel around Europe, America and Asia. I have also been spending time with family and friends at home and overseas. I moved to Toronto in March 2019."
+                jobDescription="In 2018 I decided to take a career break. I have used this break to travel around Europe, Asia and North America."
                 />
             <Experience
               startYear={2012}
