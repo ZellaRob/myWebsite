@@ -1,0 +1,63 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: radial-gradient(white, black);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(white, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.background {
+    /* The image used */
+    background-image: url(./images/sunset.JPG);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contact page css */
+
+
+.contact-info {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.contact-info i {
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+  
+}
+
+.social-links i {
+  color: black;
+  font-size: 5em;
+  padding: 15px;
+}
+
