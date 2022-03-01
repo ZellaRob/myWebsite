@@ -24,7 +24,7 @@ class Landing extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '20px', color: 'white'}}>
-				  <a href="https://github.com/HelenRob" rel="noopener noreferrer" style={{color:'white'}} target="_blank">
+				  <a href="https://github.com/ZellaRob" rel="noopener noreferrer" style={{color:'white'}} target="_blank">
 					 <i className="fa fa-github-square" aria-hidden="true"/>
                     GitHub
 				  </a>
