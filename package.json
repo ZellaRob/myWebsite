@@ -1,5 +1,6 @@
 {
   "name": "myportfoliosite",
+  "homepage": "https://myusername.ZellaRob.io/myWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,9 +10,13 @@
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.0",
-    "react-toastify": "^6.0.8"
+    "react-toastify": "^6.0.8",
+    "gh-pages": "^2.0.1",
+     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
